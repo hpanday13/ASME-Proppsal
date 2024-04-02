@@ -17,7 +17,7 @@ def display_and_add_to_total(section_title, section_cost):
     st.markdown(f"**{section_title} Cost: USD {section_cost:,.2f}**")
     
 st.divider()
-st.write("Gathering data on enrollment levels, placement rates, and academic offerings is challenging due to the dispersed nature of information. This necessitates individualized searches and the curation of datasets for later analysis")
+st.write("Gathering data on enrollment levels, placement rates, and academic offerings is challenging due to the dispersed nature of information. It requires individualized searches and the curation of datasets for later analysis")
 # Creating two columns for input fields
 col1, col2 = st.columns(2)
 
@@ -47,7 +47,7 @@ display_and_add_to_total("Desk Research", desk_research_cost)
 
 st.divider()
 st.markdown("""
-Estimate the costs associated with conducting primary research on student perspectives in the Mechanical Engineering (ME) domain. This research aims to understand motivations for enrolling in ME, reasons for opting out, and perceptions influencing these decisions, including factors like starting salaries, parental pressure, and societal views. Choose between virtual and in-person interviews to see how it impacts the cost.
+You can estimate the costs associated with conducting primary research on student perspectives in the Mechanical Engineering (ME) domain. It can be used to understand motivations for enrolling in ME, reasons for opting out, and perceptions influencing these decisions, including factors like starting salaries, parental pressure, and societal views. Choose between virtual and in-person interviews to see how it impacts the cost.
 """)
 
 # Option to select interview mode
@@ -93,7 +93,7 @@ st.divider()
 
 # Introduction
 st.markdown("""
-Estimate the costs associated with scraping job data for Mechanical Engineering (ME) to analyze the current employer market. This includes developing a web scraper, collecting data on job postings, storing the data, and conducting a detailed analysis to identify market trends and patterns.
+To analyze the current employer market, you can estimate the costs associated with scraping job data for Mechanical Engineering (ME). This includes developing a web scraper, collecting data on job postings, storing the data, and conducting a detailed analysis to identify market trends and patterns.
 """)
 
 # Creating columns for input fields to organize the UI
@@ -127,7 +127,7 @@ display_and_add_to_total("Job Market Analysis", job_market_analysis_cost)
 
 st.divider()
 st.markdown("""
-Estimate the costs associated with conducting primary research on employer perspectives within the Mechanical Engineering (ME) domain. This research aims to understand where employers are sourcing their ME talent from, the filters they apply in the selection process, the extent and focus of upskilling required to make the talent viable, and specific areas of upskilling.
+Estimate the costs associated with conducting primary research on employer perspectives. This research aims to understand where employers are sourcing their ME talent from, the filters they apply in the selection process, the extent and focus of upskilling required to make the talent viable, and specific areas of upskilling.
 """)
 
 # Option to select interview mode
